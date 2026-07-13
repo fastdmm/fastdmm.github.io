@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FastDMM: real-time learning-based video motion magnification for Full-HD videos.">
+  <meta name="keywords" content="FastDMM, video motion magnification, real-time processing, TMLR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FastDMM: Revisiting Learning-based Video Motion Magnification for Real-time Processing</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    body {
+      font-family: "Noto Sans", sans-serif;
+    }
+
+    .publication-title {
+      font-family: "Google Sans", "Noto Sans", sans-serif;
+    }
+
+    .publication-authors {
+      margin-top: 0.7rem;
+    }
+
+    .author-block {
+      display: inline-block;
+      margin-right: 0.25rem;
+    }
+
+    .publication-links {
+      margin-top: 1.5rem;
+    }
+
+    .link-block {
+      display: inline-block;
+      margin: 0.25rem;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            Revisiting Learning-based Video Motion Magnification for Real-time Processing
+          </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Hyunwoo Ha<sup>1,*</sup>,</span>
+            <span class="author-block">Oh Hyun-Bin<sup>1,*</sup>,</span>
+            <span class="author-block">Kim Jun-Seong<sup>1</sup>,</span>
+            <span class="author-block">Kwon Byung-Ki<sup>2</sup>,</span>
+            <span class="author-block">Kim Sung-Bin<sup>1</sup>,</span>
+            <span class="author-block">Linh-Tam Tran<sup>3</sup>,</span>
+            <span class="author-block">Ji-Yun Kim<sup>1</sup>,</span>
+            <span class="author-block">Sung-Ho Bae<sup>3</sup>,</span>
+            <span class="author-block">Tae-Hyun Oh<sup>4</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>POSTECH Department of Electrical Engineering,</span>
+            <span class="author-block"><sup>2</sup>POSTECH Graduate School of Artificial Intelligence,</span>
+            <span class="author-block"><sup>3</sup>Kyung Hee University,</span>
+            <span class="author-block"><sup>4</sup>KAIST School of Computing</span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">Published in Transactions on Machine Learning Research, July 2026</span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal contribution</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://openreview.net/pdf?id=TAmmPuExE1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=TAmmPuExE1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span>OpenReview</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video motion magnification captures and amplifies subtle motion in a video that is invisible
+            to the naked eye. Prior learning-based methods improve generation quality over conventional
+            signal-processing approaches, but they still fall short of real-time performance, limiting
+            their use in online systems.
+          </p>
+          <p>
+            We revisit the first learning-based motion magnification model and analyze redundant
+            components, spatial bottlenecks, and the trade-off between channel reduction and layer
+            addition. By integrating these findings, we present a real-time learning-based motion
+            magnification model that is 2.7x to 34.9x faster than existing learning-based methods while
+            maintaining perceptually sufficient generation quality.
+          </p>
+          <p>
+            To the best of our knowledge, this is the first learning-based motion magnification model
+            that runs in real time on Full-HD videos without ad hoc quantization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Highlights</h2>
+        <div class="content">
+          <ul>
+            <li>Real-time learning-based video motion magnification for Full-HD resolution videos.</li>
+            <li>2.7x to 34.9x faster computation than existing learning-based methods.</li>
+            <li>Architecture analysis covering redundant components, spatial bottlenecks, and channel-layer trade-offs.</li>
+            <li>Perceptually sufficient generation quality calibrated with a human study.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ha2026revisiting,
+  author  = {Ha, Hyunwoo and Oh, Hyun-Bin and Kim, Jun-Seong and Kwon, Byung-Ki and Kim, Sung-Bin and Tran, Linh-Tam and Kim, Ji-Yun and Bae, Sung-Ho and Oh, Tae-Hyun},
+  title   = {Revisiting Learning-based Video Motion Magnification for Real-time Processing},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2026},
+  url     = {https://openreview.net/forum?id=TAmmPuExE1}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a href="https://openreview.net/pdf?id=TAmmPuExE1">Paper</a>
+      &nbsp;/&nbsp;
+      <a href="https://openreview.net/forum?id=TAmmPuExE1">OpenReview</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
