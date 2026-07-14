@@ -48,6 +48,14 @@ body {
   margin-top: 1.5rem;
 }
 
+.soon-label {
+  color: #6c7a83;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-left: 0.35rem;
+  text-transform: uppercase;
+}
+
 .hero-figure,
 .paper-figure {
   background: #ffffff;
